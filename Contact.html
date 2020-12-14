@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact</title>
+        <style>
+            body{
+                font-family:monospace;
+                background: rgb(255, 245, 159);
+                color:rgb(71, 12, 126);
+                
+            }
+            h1{
+                font-weight: bolder;
+                font-size:30px;
+                text-align: center;
+            }
+            .center{
+                text-align: center;
+                font-size: 15px;   
+            }
+            p{
+                text-align: center;
+                font-size: 16px;
+            }
+            img{
+                padding: 15px;
+            }
+            .link:hover{
+                color: red;
+            }
+            .form form{
+                padding-left: 30px;
+            }
+            h3{
+                padding-left: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="center">
+            <h1 style="font-size: 30;">Contact</h1>
+            <nav style="width:100%">
+                <tr>
+                    <th class="link"><a href="Homepage.html">Homepage</a></th> |
+                    <td class="link"><a href="Gallery.html">Gallery</a></td> |
+                    <td class="link"><a href="gpa.html">GPA</a></td>
+                </tr> 
+            </nav>
+        </div>
+            
+
+
+            <div class="form">
+                <form>
+                    <label for="subject">Subject:</label><br> 
+                    <input style="width: 20%;" type="text" id="subject" name="subject"><br>
+                    <label for="subject">Message:</label><br> 
+                    <textarea name="message" rows="10" cols="100"></textarea> <br>
+                    <label for="fname">Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br> 
+                    <table style="width: 100%;">
+                        <p>Gender:</p>
+                        <tr>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label><br>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label><br> <br>
+                        </tr>
+                    </table>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email"> <br> 
+                    <label for="tel">Tel:</label><br> 
+                    <input type="number" id="tel" name="tel"><br> <br>
+                    <input type="submit" value="Submit">
+                  </form>
+            </div>
+         
+            
+          <h3>Contact me <br> Tel: 0908958539 <br> Email: possible.pack@gmail.com <br> </h3>
+          
+        
+    </body>
+</html>

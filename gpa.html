@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GPA</title>
+        <style>
+            body{
+                font-family:monospace;
+                background: rgb(255, 245, 159);
+                color:rgb(71, 12, 126);
+            }
+            h1{
+                font-weight: bolder;
+                font-size:30px;
+                text-align: center;
+            }
+            div.center{
+                text-align: center;
+                font-size: 15px;   
+            }
+            p{
+                text-align: center;
+                font-size: 16px;
+            }
+            img{
+                padding: 15px;
+            }
+            .form{
+                padding-left: 27%;
+                text-align: center;
+                margin: 20px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .form  table{
+                padding-right: 15px;
+                
+            }
+            .link:hover{
+                color: red;
+            }
+            button{
+                margin: 15px;
+            }
+            
+        </style>
+    </head>
+    <body>
+            <div class="center">
+                <h1> GPA</h1>
+                <nav>
+                    <div class="link">
+                        <th><a href="Homepage.html">Homepage</a></th> |
+                        <td><a href="Gallery.html">Gallery</a></td> |
+                        <td><a href="Contact.html">Contact</a></td>
+                    </div> 
+                </nav>
+            </div>
+
+            <div class="form">
+                <form>
+                    <table>
+                        <td><label for="subject">Subject:</label> </td>
+                        <td><input type="text" id="subject" name="subject"></td>
+                        <td><label for="semester">Semester:</label></td>
+                        <datalist id="semester">
+                            <option value="1">
+                            <option value="2">
+                          </datalist>
+                        <td><input type="text" id="semester" name="semester"></td>  
+                        <td><label for="grade">Grade:</label></td>
+                        <td><input type="text" id="grade" name="grade"></td>
+                        <button>Add</button>
+                        <button>Calculate</button>
+                    </table>
+                    
+                  </form>
+            </div>
+             
+            
+    </body>
+</html>
